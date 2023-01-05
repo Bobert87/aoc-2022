@@ -1,8 +1,10 @@
-const { problem1, problem1Part2 } = require('./src/problem1/index');
-const { problem2, problem2Part2 } = require('./src/problem2/index');
-const { problem3, problem3Part2 } = require('./src/problem3/index');
-const { problem4, problem4Part2 } = require('./src/problem4/index');
-const { problem5, problem5Part2 } = require('./src/problem5/index');
+const { problem1, problem1Part2 } = require('./src/problem1');
+const { problem2, problem2Part2 } = require('./src/problem2');
+const { problem3, problem3Part2 } = require('./src/problem3');
+const { problem4, problem4Part2 } = require('./src/problem4');
+const { problem5, problem5Part2 } = require('./src/problem5');
+const { problem6, problem6Part2 } = require('./src/problem6');
+const { problem7, problem7Part2 } = require('./src/problem7');
 const inputHandler = require('./src/tools/inputHandler');
 
 const p1 = inputHandler('./src/problem1/input/input.txt', '\n')
@@ -30,5 +32,14 @@ console.log(`Problem 5`)
 console.log(problem5(p5));
 console.log(problem5Part2(p5));
 
+const p6 = inputHandler('./src/problem6/input/input.txt', '\n')
+console.log(`Problem 6`)
+console.log(problem6(p6[0]));
+console.log(problem6Part2(p6[0]));
+
+const p7 = inputHandler('./src/problem7/input/input.txt', '\n')
+console.log(`Problem 7`)
+console.log(problem7(p7));
+console.log(problem7Part2(p7));
 
  
