@@ -5,6 +5,7 @@ const { problem4, problem4Part2 } = require('./src/problem4');
 const { problem5, problem5Part2 } = require('./src/problem5');
 const { problem6, problem6Part2 } = require('./src/problem6');
 const { problem7, problem7Part2 } = require('./src/problem7');
+const { problem8, problem8Part2 } = require('./src/problem8');
 const inputHandler = require('./src/tools/inputHandler');
 
 const p1 = inputHandler('./src/problem1/input/input.txt', '\n')
@@ -41,5 +42,10 @@ const p7 = inputHandler('./src/problem7/input/input.txt', '\n')
 console.log(`Problem 7`)
 console.log(problem7(p7));
 console.log(problem7Part2(p7));
+
+const p8 = inputHandler('./src/problem8/input/input.txt', '\n')
+console.log(`Problem 8`)
+console.log(problem8(p8));
+console.log(problem8Part2(p8));
 
  
